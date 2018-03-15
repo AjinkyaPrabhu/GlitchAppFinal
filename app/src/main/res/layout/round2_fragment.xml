@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/guidelines"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity"
+    tools:ignore="InvalidId">
+
+    <LinearLayout
+        android:id="@+id/tab2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context="com.example.vijmr.javarev.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="ROUND 2:"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:text="We will be unveiling the questions that are gonna exceed every limit ever met. To take it slow, we'll be revealing one question per hour.\n\n# The questions aren't time bound. So take your time to prove your mettle but make sure to complete all of them before round 2 ends!\n\n#. Caution: keep an eye on Ur watches coz the race ends as soon as the clock strikes the time mentioned.\n\n# We don't care if u beg, borrow or steal but make sure u got all Ur resistors and wires ready to get the job done on time.\n\n #Do remember that out of a 1000 keys, only one unique key can unlock the master lock.\n\n\n\nIn a nutshell, the answers are many but the solution is one."
+            android:textAlignment="viewStart"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</ScrollView>

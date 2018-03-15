@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/round1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity"
+
+    tools:ignore="InvalidId">
+
+    <LinearLayout
+        android:id="@+id/tab2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context="com.example.vijmr.javarev.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="ROUND 1:"
+            android:textAlignment="center"
+
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="# Doesn't matter if you type a RiGhT or a rIgHt, just make sure to get your answer right as they are case insensitive.\n\n# Seconds turn into minutes and minutes into hours, but make sure to keep an eye on the timer as the round 1 is strictly time bound!\n\n# Participants can take up the challenge anytime before or during the competition. But better make a great headstart coz you would not like to be left behind in the race of the millennium as no extra time would be given.\n\n\# A man makes his own luck. So put your brains at work and earn your way into the second round wherein you get to battle with your equivalent players.
+"
+            android:textAlignment="viewStart"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_tab1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context="com.example.vijmr.javarev.MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/glitchhighres" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Untangle the tangled neurons! Coz you are about to enter a dark territory whose gates know no bounds.\n\nYou are free yet in shackles!\n\nInitiate the chemical reactions (conc.H2SO4, Nitric Acid, sodium acetate),  pour in your catalysts and promoters but do remember that we got inhibitors dripping in delays of seconds.\n\nA slight miscalculation may trigger the Germans to turn tables against your way plunging you into the darkest worm holes the universe has ever witnessed.\n\nBeware victims, the chain reaction has been set.... buckle up your seat belts and find the aquaregia for your gold knuckles!\n\nTo experience this electrifying phenomena The Electronics Club of VIT presents to you - \nGLITCH"
+            android:textAlignment="textStart"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            tools:ignore="RtlCompat" />
+    </LinearLayout>
+</ScrollView>

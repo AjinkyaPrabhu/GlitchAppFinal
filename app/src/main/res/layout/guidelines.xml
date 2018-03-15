@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/guidelines"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    tools:ignore="InvalidId">
+
+    <LinearLayout
+        android:id="@+id/tab2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context="com.example.vijmr.javarev.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GUIDELINES"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="ROUND1:"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:text="# Doesn't matter if you type a RiGhT or a rIgHt, just make sure to get your answer right as they are case insensitive.\n\n# Seconds turn into minutes and minutes into hours, but make sure to keep an eye on the timer as the round 1 is strictly time bound!\n\n# Participants can take up the challenge anytime before or during the competition. But better make a great headstart coz you would not like to be left behind in the race of the millennium as no extra time would be given.\n\n\# A man makes his own luck. So put your brains at work and earn your way into the second round wherein you get to battle with your equivalent players.
+"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="ROUND2:"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:text="We will be unveiling the questions that are gonna exceed every limit ever met. To take it slow, we'll be revealing one question per hour.\n\n# The questions aren't time bound. So take your time to prove your mettle but make sure to complete all of them before round 2 ends!\n\n#. Caution: keep an eye on Ur watches coz the race ends as soon as the clock strikes the time mentioned.\n\n# We don't care if u beg, borrow or steal but make sure u got all Ur resistors and wires ready to get the job done on time.\n\n #Do remember that out of a 1000 keys, only one unique key can unlock the master lock.\n\n\n\nIn a nutshell, the answers are many but the solution is one."
+            android:textColor="#FFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="RESULT:"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:text="Did you really give in your best?\n\nAre you sure you really stand a chance?\n\nDo you think you have conquered it all?\n\nWell keep refreshing your Facebook pages coz the results may be out any minute!\n\nStay tuned.. Who knows this might be your lucky day!
+"
+            android:textColor="#FFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

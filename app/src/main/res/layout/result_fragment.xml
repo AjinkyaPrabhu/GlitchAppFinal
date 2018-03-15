@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/guidelines"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity"
+    tools:ignore="InvalidId">
+
+    <LinearLayout
+        android:id="@+id/tab2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context="com.example.vijmr.javarev.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="RESULT:"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Did you really give in your best?\n\nAre you sure you really stand a chance?\n\nDo you think you have conquered it all?\n\nWell keep refreshing your Facebook pages coz the results may be out any minute!\n\nStay tuned.. Who knows this might be your lucky day!
+"
+            android:textAlignment="viewStart"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

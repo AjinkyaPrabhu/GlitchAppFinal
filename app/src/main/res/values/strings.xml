@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GlitchAppFinal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="email"><u>tec.vituni@gmail.com</u></string>
+    <string name="phone"><u>9585418007</u></string>
+</resources>
